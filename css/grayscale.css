@@ -57,10 +57,10 @@
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
