@@ -140,7 +140,10 @@
             </form>
 
             <div class="text-center text-sm-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <button class="btn btn-primary" onclick="errorBox()">Send</button>
+                <script> function errorBox() {
+                  alert("My inbox is full at this time. Please try again later. Thank you!");
+                }</script>
             </div>
             <div class="status"></div>
         </div>
