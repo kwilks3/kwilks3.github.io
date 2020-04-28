@@ -41,7 +41,7 @@
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color:#fff;
+    color: #fff;
   }
   #mainNav .nav-link {
     transition: none;
@@ -117,17 +117,16 @@
   font-size: 1rem;
 }
 
-  }
-  .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
-  }
-  .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
-  }
+.masthead h1 {
+  font-size: 6.5rem;
+  line-height: 6.5rem;
+  letter-spacing: 0.8rem;
 }
+.masthead h2 {
+  max-width: 30rem;
+  font-size: 1.25rem;
+}
+
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -172,7 +171,6 @@
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
-
 }
 .signup-section {
   padding: 10rem 0;
