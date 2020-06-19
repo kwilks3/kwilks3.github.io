@@ -176,6 +176,9 @@
   padding: 3rem;
   font-size: 90%;
 }
+.project-info {
+  margin-bottom: 10px;
+}
 
 @media (min-width: 992px) {
   .projects-section .project-text {
