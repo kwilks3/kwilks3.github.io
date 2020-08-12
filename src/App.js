@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import Navigation from "./components/Navigation";
 import Routes from "./Routes";
+import Footer from "./components/Footer";
 
 import { AutoProvider } from "./AutoContext";
 
@@ -15,6 +16,7 @@ function App() {
     <AutoProvider value={[view, setView]}>
       <Navigation />
       <Routes />
+      <Footer />
     </AutoProvider>
   );
 }
