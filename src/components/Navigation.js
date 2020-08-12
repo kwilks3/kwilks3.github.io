@@ -4,9 +4,9 @@ import { AutoContext } from "../AutoContext";
 
 export default function Navigation() {
   const context = useContext(AutoContext);
-  const handleClick = (tab) => {
+  const handleClick = () => {
     // context[1]({ page: tab });
-    console.log(tab);
+    console.log("text");
   };
   return (
     <Navbar bg="light" expand="lg">
@@ -14,14 +14,14 @@ export default function Navigation() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto" style={{ marginRight: "10px" }}>
-          <Nav.Link onClick={handleClick("about")}>About</Nav.Link>
-          <Nav.Link onClick={handleClick("projects")} href="#projects">
-            Projects
-          </Nav.Link>
-          <Nav.Link onClick={handleClick("contact")} href="#contact">
-            Contact
-          </Nav.Link>
+        <Nav
+          onSelect={handleClick}
+          className="mr-auto"
+          style={{ marginRight: "10px" }}
+        >
+          <Nav.Link href="About">About</Nav.Link>
+          <Nav.Link href="Projects">Projects</Nav.Link>
+          <Nav.Link href="Contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

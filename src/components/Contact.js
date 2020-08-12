@@ -1,6 +1,5 @@
 import React from "react";
-import Navigation from "./Navigation";
 
 export default function Contact() {
-  return <Navigation />;
+  return <h1>Contact me</h1>;
 }

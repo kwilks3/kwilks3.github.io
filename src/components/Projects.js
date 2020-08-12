@@ -1,6 +1,5 @@
 import React from "react";
-import Navigation from "./Navigation";
 
 export default function Projects() {
-  return <Navigation />;
+  return <h1>Project page</h1>;
 }

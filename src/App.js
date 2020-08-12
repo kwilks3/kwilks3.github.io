@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+
+import Navigation from "./components/Navigation";
+import Routes from "./Routes";
 
 import { AutoProvider } from "./AutoContext";
 
@@ -13,13 +13,8 @@ function App() {
   });
   return (
     <AutoProvider value={[view, setView]}>
-      {view.page === "about" ? (
-        <About />
-      ) : view.page === "Projects" ? (
-        <Projects />
-      ) : (
-        <Contact />
-      )}
+      <Navigation />
+      <Routes />
     </AutoProvider>
   );
 }
