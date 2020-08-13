@@ -5,6 +5,7 @@ import { FiMapPin, FiMail } from "react-icons/fi";
 export default function About() {
   return (
     <>
+      {/* heading section with rose background image, name, and occupation */}
       <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
           <div class="mx-auto text-center">
@@ -13,6 +14,7 @@ export default function About() {
           </div>
         </div>
       </header>
+      {/* Image of me and about me section  */}
       <section id="about" class="about-section text-center">
         <div class="container">
           <div class="row">
@@ -39,6 +41,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      {/* cards with location and email address */}
       <section class="contact-section bg-black">
         <div class="container">
           <div class="row">
@@ -65,19 +68,6 @@ export default function About() {
                 </div>
               </div>
             </div>
-
-            {/* <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fas fa-phone text-primary mb-2"></i>
-                  <h4 class="text-uppercase m-0">phone</h4>
-                  <hr class="my-4" />
-                  <div class="small text-black-50">
-                    <p>Email for number</p>
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </section>

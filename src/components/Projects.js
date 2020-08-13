@@ -24,6 +24,7 @@ export default function Projects() {
                 />
               </a>
             </div>
+            {/* first project  */}
             <div class="col-sm-6 order-sm-first">
               <div class="bg-black text-center h-100 project">
                 <div class="d-flex h-100">
@@ -43,7 +44,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-
+          {/* second project */}
           <div class="row justify-content-center no-gutters project-info">
             <div class="col-sm-6">
               <img
@@ -69,7 +70,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-
+          {/* third project */}
           <div class="row justify-content-center no-gutters project-info">
             <div class="col-sm-6">
               <a href="https://kwilks3.github.io/WeatherDashboard/">

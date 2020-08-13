@@ -6,6 +6,7 @@ export default function Contact() {
     <section class="mb-4 container" style={{ paddingTop: "10%" }}>
       <div class="row" style={{ display: "flex" }}>
         <div class="col-sm-9 mb-sm-0 mb-5">
+          {/* form asking for user information */}
           <form
             id="contact-form"
             name="contact-form"
@@ -79,6 +80,7 @@ export default function Contact() {
           </form>
 
           <div class="text-center ">
+            {/* on click of send button provide an alert because I do not want to be contacted using this form */}
             <button
               class="btn btn-dark"
               onClick={() => {
@@ -90,7 +92,7 @@ export default function Contact() {
               Send
             </button>
           </div>
-
+          {/* location and email  */}
           <div class="row" style={{ justifyContent: "center" }}>
             {/* <ul class="list-unstyled mb-0"> */}
             <div class="col text-center">

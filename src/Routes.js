@@ -8,6 +8,7 @@ import history from "./history";
 
 export default function Routes() {
   return (
+    // switch routes based on path provided by the nav bar
     <Router history={history}>
       <Switch>
         <Route path="/" exact component={About} />
