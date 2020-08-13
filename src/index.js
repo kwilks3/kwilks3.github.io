@@ -9,7 +9,6 @@ import App from "./App";
 //   offset: "30px",
 //   transition: transitions.SCALE,
 // };
-ReactDOM.render(<App />, document.getElementById("root"));
 ReactDOM.render(
   <Router>
     <App />
