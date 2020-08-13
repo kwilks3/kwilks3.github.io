@@ -1,12 +1,9 @@
 import React from "react";
 import { FiMapPin, FiMail } from "react-icons/fi";
+
 export default function Contact() {
   return (
     <section class="mb-4 container" style={{ paddingTop: "10%" }}>
-      {/* <h2 class="h1-responsive font-weight-bold text-center my-4">
-        Contact Me
-      </h2> */}
-
       <div class="row" style={{ display: "flex" }}>
         <div class="col-sm-9 mb-sm-0 mb-5">
           <form
@@ -84,9 +81,9 @@ export default function Contact() {
           <div class="text-center ">
             <button
               class="btn btn-dark"
-              onclick={() => {
+              onClick={() => {
                 alert(
-                  "My inbox is full at this time. Please try again later. Thank you!"
+                  "Contact me using my LinkedIn profile for a faster response!"
                 );
               }}
             >
