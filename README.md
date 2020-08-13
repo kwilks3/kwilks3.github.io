@@ -11,4 +11,4 @@ My projects section hosts the of projects I've completed. Click the title to acc
 
 The contact form contains a page that allows people to contact me.
 
-<img src = "./img/Shot.png">
+<img src = "./src/img/Shot.png">
