@@ -6,7 +6,7 @@ export default function Navigation() {
     <Navbar bg="light" expand="md">
       <Navbar.Brand>Kimberly Wilks</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
+      {/* nav bar changes path and routes file renders component */}
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ marginRight: "10px" }}>
           <Nav.Link style={styles} href="About">
