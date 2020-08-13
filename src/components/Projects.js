@@ -2,7 +2,7 @@ import React from "react";
 import pubioimage from "../img/pubioimages.png";
 import codequiz from "../img/quiz.png";
 import weather from "../img/weather.png";
-
+import projectboard from "../img/projectBoard.png";
 export default function Projects() {
   return (
     <>
@@ -16,8 +16,12 @@ export default function Projects() {
         <div class="container">
           <div class="row justify-content-center no-gutters project-info">
             <div class="col-sm-6">
-              <a href="https://kwilks3.github.io/Code-Quiz/">
-                <img class="img-fluid" src={codequiz} alt="code quiz" />
+              <a href="https://autobanprod.herokuapp.com/">
+                <img
+                  class="img-fluid"
+                  src={projectboard}
+                  alt="Autoban webpage screenshot "
+                />
               </a>
             </div>
             <div class="col-sm-6 order-sm-first">
@@ -25,13 +29,13 @@ export default function Projects() {
                 <div class="d-flex h-100">
                   <div class="project-text w-100 my-auto text-center text-sm-right">
                     <h4 class="text-white">
-                      <a href="https://github.com/kwilks3/Code-Quiz">
-                        Code Quiz
+                      <a href="https://github.com/TheAutobanApp/Autoban">
+                        Autoban
                       </a>
                     </h4>
                     <p class="text-white">
-                      Take this quick code quiz to test your JavaScript
-                      knowledge.{" "}
+                      A project management site that allows users to create
+                      kanban boards for their projects.
                     </p>
                     <hr class="d-none d-sm-block mb-0 mr-0" />
                   </div>
@@ -45,7 +49,7 @@ export default function Projects() {
               <img
                 class="img-fluid"
                 src={pubioimage}
-                alt="project screenshots"
+                alt="PubIO app screenshots"
               />
             </div>
             <div class="col-sm-6 order-sm-first">
