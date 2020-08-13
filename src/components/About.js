@@ -42,7 +42,7 @@ export default function About() {
       <section class="contact-section bg-black">
         <div class="container">
           <div class="row">
-            <div class="col-md-4 mb-3 mb-md-0">
+            <div class="col-md-6 mb-3 mb-md-0">
               <div class="card py-4 h-100">
                 <div class="card-body text-center">
                   <FiMapPin />
@@ -53,7 +53,7 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-md-4 mb-3 mb-md-0">
+            <div class="col-md-6 mb-3 mb-md-0">
               <div class="card py-4 h-100">
                 <div class="card-body text-center">
                   <FiMail />
@@ -66,7 +66,7 @@ export default function About() {
               </div>
             </div>
 
-            <div class="col-md-4 mb-3 mb-md-0">
+            {/* <div class="col-md-4 mb-3 mb-md-0">
               <div class="card py-4 h-100">
                 <div class="card-body text-center">
                   <i class="fas fa-phone text-primary mb-2"></i>
@@ -77,7 +77,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
