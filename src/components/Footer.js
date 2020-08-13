@@ -15,7 +15,7 @@ export default function Footer() {
         </a>
       </div>
 
-      <footer class="bg-black small text-center text-black-50">
+      <footer class="bg-black small text-center text-white-50">
         <div class="container">Copyright &copy; Kimberly Wilks 2020</div>
       </footer>
     </>
