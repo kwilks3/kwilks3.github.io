@@ -1,6 +1,5 @@
 import React from "react";
 import pubioimage from "../img/pubioimages.png";
-import codequiz from "../img/quiz.png";
 import weather from "../img/weather.png";
 import projectboard from "../img/projectBoard.png";
 export default function Projects() {

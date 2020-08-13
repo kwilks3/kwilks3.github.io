@@ -19,7 +19,12 @@ export default function About() {
         <div class="container">
           <div class="row">
             <div class="col">
-              <img src={ProfileImage} class="img-fluid" id="profile" />
+              <img
+                src={ProfileImage}
+                class="img-fluid"
+                id="profile"
+                alt="Kim"
+              />
             </div>
           </div>
           <div class="row">
