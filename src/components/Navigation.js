@@ -9,13 +9,13 @@ export default function Navigation() {
       {/* nav bar changes path and routes file renders component */}
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ marginRight: "10px" }}>
-          <Nav.Link style={styles} to="/about">
+          <Nav.Link style={styles} href="/about">
             About
           </Nav.Link>
-          <Nav.Link style={styles} to="/projects">
+          <Nav.Link style={styles} href="/projects">
             Projects
           </Nav.Link>
-          <Nav.Link style={styles} to="/contact">
+          <Nav.Link style={styles} href="/contact">
             Contact
           </Nav.Link>
         </Nav>

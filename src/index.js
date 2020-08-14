@@ -10,8 +10,7 @@ import App from "./App";
 //   transition: transitions.SCALE,
 // };
 ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
+  <App />,
+
   document.getElementById("root")
 );
