@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 export default function Navigation() {
   return (
     <Navbar bg="light" expand="md">
@@ -9,15 +9,15 @@ export default function Navigation() {
       {/* nav bar changes path and routes file renders component */}
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ marginRight: "10px" }}>
-          <Link style={styles} to="/about">
+          <Nav.Link style={styles} to="/about">
             About
-          </Link>
-          <Link style={styles} to="/projects">
+          </Nav.Link>
+          <Nav.Link style={styles} to="/projects">
             Projects
-          </Link>
-          <Link style={styles} to="/contact">
+          </Nav.Link>
+          <Nav.Link style={styles} to="/contact">
             Contact
-          </Link>
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
