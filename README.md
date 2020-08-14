@@ -1,7 +1,7 @@
 # Kim's Portfolio
 
 My Portfolio has an about me page, a project page, and a contact page.
-https://kwilks3.github.io/
+Here is the link to my deployed app! https://kwilksportfolio.herokuapp.com/
 
 ## What's in it?
 
