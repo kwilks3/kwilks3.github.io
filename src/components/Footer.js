@@ -9,14 +9,20 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/kimberlywilks/"
           target="_blank"
+          rel="noopener noreferrer"
           class="mx-2"
         >
           {/* <i class="fab fa-linkedin"></i> */}
-          <AiFillLinkedin color="black" />
+          <AiFillLinkedin color="black" size="30px" />
         </a>
 
-        <a href="https://github.com/kwilks3" target="_blank" class="mx-2">
-          <AiFillGithub color="black" />
+        <a
+          href="https://github.com/kwilks3"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mx-2"
+        >
+          <AiFillGithub color="black" size="30px" />
         </a>
       </div>
 

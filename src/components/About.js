@@ -1,5 +1,6 @@
 import React from "react";
 import ProfileImage from "../img/profile.png";
+import Resume from "../assets/KWilksResumeEng.pdf";
 import { FiMapPin, FiMail } from "react-icons/fi";
 
 export default function About() {
@@ -30,16 +31,13 @@ export default function About() {
           <div class="row">
             <div class="col-sm-8 mx-auto">
               <h2 class="text-white mb-4">About Me</h2>
-              <p class="text-white-50">
-                I am currently a Systems Project manager at Facebook and a
-                student of the Full Stack Development bootcamp at the University
-                of Texas - Austin. I received my BSBA in Business Analytics from
-                the University of Miami in 2017.
+              <p class="text-white">
+                I am currently a Quality Systems Project Manager at Facebook and
+                a soon-to-be graduate of the Full Stack Development bootcamp at
+                the University of Texas - Austin. I received my BSBA in Business
+                Analytics from the University of Miami in 2017.
               </p>
-              <a
-                href="https://docs.google.com/document/d/1HCgP_k712FAzgPRYCwjFyd4xAfmsmnHmJbJ9x14sQcM/edit?usp=sharing"
-                target="_blank"
-              >
+              <a href={Resume} target="_blank" rel="noopener noreferrer">
                 Click here to read more on my resume!
               </a>
             </div>

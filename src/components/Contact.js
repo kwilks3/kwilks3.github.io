@@ -1,10 +1,11 @@
 import React from "react";
 import { FiMapPin, FiMail } from "react-icons/fi";
+import Form from "react-bootstrap";
 
 export default function Contact() {
   return (
     <section class="mb-4 container" style={{ paddingTop: "10%" }}>
-      <div class="row" style={{ display: "flex" }}>
+      <div class="row">
         <div class="col-sm-9 mb-sm-0 mb-5">
           {/* form asking for user information */}
           <form
@@ -13,11 +14,11 @@ export default function Contact() {
             action="mail.php"
             method="POST"
           >
-            <div class="row" style={{ justifyContent: "center" }}>
+            <div class="row">
               <div class="col-sm-6">
                 <div class="sm-form mb-0">
                   <label for="name" class="">
-                    Your name
+                    Name
                   </label>
                   <input
                     type="text"
@@ -32,7 +33,7 @@ export default function Contact() {
               <div class="col-sm-6">
                 <div class="sm-form mb-0">
                   <label for="email" class="">
-                    Your email
+                    Email
                   </label>
                   <input
                     type="email"
