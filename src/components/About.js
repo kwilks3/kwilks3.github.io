@@ -56,8 +56,8 @@ export default function About() {
                 ensure they accomplish all operational goals and communicate
                 designs to non-technical audiences. In the last year, I have
                 maintained my full-time role while becoming a more skilled and
-                efficient developer. I am looking forward to a career of
-                continuous learning and growth.
+                efficient developer. I am looking forward to an engineering
+                career of continuous learning and growth.
               </p>
               <a href={Resume} target="_blank" rel="noopener noreferrer">
                 Click here to read more on my resume!
