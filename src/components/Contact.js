@@ -1,114 +1,117 @@
 import React from "react";
 import { FiMapPin, FiMail } from "react-icons/fi";
-import Form from "react-bootstrap";
+import Background from "../img/demo-image-02.jpg";
+import {
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBBtn,
+  MDBCard,
+  MDBIcon,
+  MDBInput,
+} from "mdbreact";
+
+import Helmet from "react-helmet";
 
 export default function Contact() {
   return (
-    <section class="mb-4 container" style={{ paddingTop: "10%" }}>
-      <div class="row">
-        <div class="col-sm-9 mb-sm-0 mb-5">
-          {/* form asking for user information */}
-          <form
-            id="contact-form"
-            name="contact-form"
-            action="mail.php"
-            method="POST"
-          >
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="sm-form mb-0">
-                  <label for="name" class="">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="form-control"
-                    placeholder="Full Name"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="sm-form mb-0">
-                  <label for="email" class="">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    class="form-control"
-                    placeholder="Email"
-                    required
-                  />
-                </div>
-              </div>
-            </div>
+    <>
+      <Helmet>
+        <script
+          type="text/javascript"
+          src="https://platform.linkedin.com/badges/js/profile.js"
+          async
+          defer
+        ></script>
+      </Helmet>
 
-            <div class="row" style={{ justifyContent: "center" }}>
-              <div class="col-sm-12">
-                <div class="sm-form mb-0">
-                  <label for="subject" class="">
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    class="form-control"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div class="row " style={{ justifyContent: "center" }}>
-              <div class="col-sm-12">
-                <div class="sm-form">
-                  <label for="message">Your message</label>
-                  <textarea
-                    type="text"
-                    id="message"
-                    name="message"
-                    rows="2"
-                    class="form-control sm-textarea"
-                    required
-                  ></textarea>
-                </div>
-              </div>
-            </div>
-          </form>
-
-          <div class="text-center ">
-            {/* on click of send button provide an alert because I do not want to be contacted using this form */}
-            <button
-              class="btn btn-dark"
-              onClick={() => {
-                alert(
-                  "Contact me using my LinkedIn profile for a faster response!"
-                );
+      <MDBContainer>
+        <MDBRow>
+          <MDBCol md="6">
+            <div
+              // style={{ marginLeft: "30%" }}
+              className="justify-content-lg-center LI-profile-badge"
+              dataVersion="v1"
+              data-size="large"
+              data-locale="en_US"
+              data-type="vertical"
+              data-theme="dark"
+              data-vanity="kimberlywilks"
+            ></div>
+          </MDBCol>
+          <MDBCol md="6">
+            <MDBCard
+              className="card-image justify-content-lg-center "
+              style={{
+                // height: "78%",
+                backgroundImage:
+                  "url(https://mdbootstrap.com/img/Photos/Others/pricing-table7.jpg)",
               }}
             >
-              Send
-            </button>
-          </div>
-          {/* location and email  */}
-          <div class="row" style={{ justifyContent: "center" }}>
+              <div className="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+                <div className="text-center">
+                  <h3
+                    style={{ marginTop: "0px" }}
+                    className="green-text font-weight-bold"
+                  >
+                    <strong>Send an Email </strong>
+                  </h3>
+                </div>
+                <form>
+                  <div className="black-text">
+                    <MDBInput
+                      label="Your name"
+                      icon="user"
+                      group
+                      type="text"
+                      validate
+                      error="wrong"
+                      success="right"
+                    />
+                    <MDBInput
+                      label="Your email"
+                      icon="envelope"
+                      group
+                      type="email"
+                      validate
+                      error="wrong"
+                      success="right"
+                    />
+
+                    <MDBInput
+                      type="textarea"
+                      rows="2"
+                      label="Your message"
+                      icon="pencil-alt"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <MDBBtn color="dark">
+                      Send
+                      <MDBIcon far icon="paper-plane" className="ml-1" />
+                    </MDBBtn>
+                  </div>
+                </form>
+              </div>
+            </MDBCard>
+          </MDBCol>
+        </MDBRow>
+        <MDBRow className="justify-content-md-center">
+          <MDBCol>
             {/* <ul class="list-unstyled mb-0"> */}
             <div class="col text-center">
               <FiMapPin />
               <p>Austin, Tx</p>
             </div>
-
+          </MDBCol>
+          <MDBCol>
             <div class="col  text-center">
               <FiMail />
               <p>wilks.kimberly@gmail.com</p>
             </div>
-            {/* </ul> */}
-          </div>
-        </div>
-      </div>
-    </section>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
+    </>
   );
 }
