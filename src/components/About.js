@@ -43,15 +43,21 @@ export default function About() {
           </div>
           <div class="row">
             <div class="col-sm-8 mx-auto">
-              <h2 class="text-white mb-4">About Me</h2>
+              <h2 class="text-white mb-4" style={{ marginTop: "10%" }}>
+                About Me
+              </h2>
               <p class="text-white">
-                I am currently a Quality Systems Project Manager at Facebook and
-                a graduate of the Full Stack Development bootcamp at the
+                I am a Quality Systems Project Manager at Facebook and a
+                graduate of the Full Stack Development bootcamp at the
                 University of Texas - Austin. As a Systems Project Manager, I
                 have developed excellent cross-functional relationships and have
-                been able to drive projects through various technical and
-                resourcing challenges to completion. As an engineer, I will
-                combine my project management and coding skills
+                been essential in driving projects through various technical and
+                resourcing challenges to completion. I analyze system designs to
+                ensure they accomplish all operational goals and communicate
+                designs to non-technical audiences. In the last year, I have
+                maintained my full-time role while becoming a more skilled and
+                efficient developer. I am looking forward to a career of
+                continuous learning and growth.
               </p>
               <a href={Resume} target="_blank" rel="noopener noreferrer">
                 Click here to read more on my resume!
