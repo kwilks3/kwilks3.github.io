@@ -15,7 +15,7 @@ export default function Projects() {
         <div class="container">
           <div class="row justify-content-center no-gutters project-info">
             <div class="col-sm-6">
-              <a href="https://autobanprod.herokuapp.com/">
+              <a href="https://autobanprod.herokuapp.com/" target="_blank">
                 <img
                   class="img-fluid"
                   src={projectboard}
@@ -29,7 +29,10 @@ export default function Projects() {
                 <div class="d-flex h-100">
                   <div class="project-text w-100 my-auto text-center text-sm-right">
                     <h4 class="text-white">
-                      <a href="https://github.com/TheAutobanApp/Autoban">
+                      <a
+                        target="_blank"
+                        href="https://github.com/TheAutobanApp/Autoban"
+                      >
                         Autoban
                       </a>
                     </h4>
@@ -57,7 +60,12 @@ export default function Projects() {
                 <div class="d-flex h-100">
                   <div class="project-text w-100 my-auto text-center text-sm-right">
                     <h4 class="text-white">
-                      <a href="https://github.com/pubIO-2020/pubIO">PubIO</a>
+                      <a
+                        target="_blank"
+                        href="https://github.com/pubIO-2020/pubIO"
+                      >
+                        PubIO
+                      </a>
                     </h4>
                     <p class="text-white">
                       A bar crawl application that allows users to partake in
@@ -72,7 +80,10 @@ export default function Projects() {
           {/* third project */}
           <div class="row justify-content-center no-gutters project-info">
             <div class="col-sm-6">
-              <a href="https://kwilks3.github.io/WeatherDashboard/">
+              <a
+                target="_blank"
+                href="https://kwilks3.github.io/WeatherDashboard/"
+              >
                 <img class="img-fluid" src={weather} alt="weather dashboard" />
               </a>
             </div>
@@ -81,7 +92,10 @@ export default function Projects() {
                 <div class="d-flex h-100">
                   <div class="project-text w-100 my-auto text-center text-sm-right">
                     <h4 class="text-white">
-                      <a href="https://github.com/kwilks3/WeatherDashboard">
+                      <a
+                        target="_blank"
+                        href="https://github.com/kwilks3/WeatherDashboard"
+                      >
                         Weather Dashboard
                       </a>
                     </h4>
