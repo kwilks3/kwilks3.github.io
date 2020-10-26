@@ -15,9 +15,6 @@ export default function Navigation() {
           <Nav.Link style={styles} href="/projects">
             Projects
           </Nav.Link>
-          <Nav.Link style={styles} href="/contact">
-            Contact
-          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

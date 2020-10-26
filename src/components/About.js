@@ -1,10 +1,20 @@
 import React from "react";
 import ProfileImage from "../img/profile.png";
+import Resume from "../assets/KWilksResumeEng.pdf";
 import { FiMapPin, FiMail } from "react-icons/fi";
+import Helmet from "react-helmet";
 
 export default function About() {
   return (
     <>
+      <Helmet>
+        <script
+          type="text/javascript"
+          src="https://platform.linkedin.com/badges/js/profile.js"
+          async
+          defer
+        ></script>
+      </Helmet>
       {/* heading section with rose background image, name, and occupation */}
       <header class="masthead">
         <div class="container d-flex h-100 align-items-center">
@@ -18,28 +28,38 @@ export default function About() {
       <section id="about" class="about-section text-center">
         <div class="container">
           <div class="row">
-            <div class="col">
-              <img
-                src={ProfileImage}
-                class="img-fluid"
-                id="profile"
-                alt="Kim"
-              />
+            <div class="col-sm-8 mx-auto">
+              <div
+                // style={{ marginLeft: "30%" }}
+                className="justify-content-lg-center LI-profile-badge"
+                dataVersion="v1"
+                data-size="large"
+                data-locale="en_US"
+                data-type="vertical"
+                data-theme="dark"
+                data-vanity="kimberlywilks"
+              ></div>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-8 mx-auto">
-              <h2 class="text-white mb-4">About Me</h2>
-              <p class="text-white-50">
-                I am currently a Systems Project manager at Facebook and a
-                student of the Full Stack Development bootcamp at the University
-                of Texas - Austin. I received my BSBA in Business Analytics from
-                the University of Miami in 2017.
+              <h2 class="text-white mb-4" style={{ marginTop: "10%" }}>
+                About Me
+              </h2>
+              <p class="text-white">
+                I am a Quality Systems Project Manager at Facebook and a
+                graduate of the Full Stack Development bootcamp at the
+                University of Texas - Austin. As a Systems Project Manager, I
+                have developed excellent cross-functional relationships and have
+                been essential in driving projects through various technical and
+                resourcing challenges to completion. I analyze system designs to
+                ensure they accomplish all operational goals and communicate
+                designs to non-technical audiences. In the last year, I have
+                maintained my full-time role while becoming a more skilled and
+                efficient developer. I am looking forward to a career of
+                continuous learning and growth.
               </p>
-              <a
-                href="https://docs.google.com/document/d/1HCgP_k712FAzgPRYCwjFyd4xAfmsmnHmJbJ9x14sQcM/edit?usp=sharing"
-                target="_blank"
-              >
+              <a href={Resume} target="_blank" rel="noopener noreferrer">
                 Click here to read more on my resume!
               </a>
             </div>
