@@ -52,7 +52,7 @@ export default function About() {
                 University of Texas - Austin. As a Systems Project Manager, I
                 have developed excellent cross-functional relationships and have
                 been essential in driving projects through various technical and
-                resourcing challenges to completion. I analyze system designs to
+                resourcing challenges to completion. I review system designs to
                 ensure they accomplish all operational goals and communicate
                 designs to non-technical audiences. In the last year, I have
                 maintained my full-time role while becoming a more skilled and
